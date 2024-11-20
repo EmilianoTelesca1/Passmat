@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostrar Contraseñas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .password-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .password-item p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .password-item .id {
+            font-weight: bold;
+            color: #333;
+        }
+        .password-item .password {
+            color: #555;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="contenedorPm">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo bebas-neue-regular"
+              >PassMat</a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li class="pacifico-regular">
+                <a href="passmat.html">Comienza a generar</a>
+              </li>
+              <li class="pacifico-regular">
+                <a href="sobreNos.html">Sobre nosotros</a>
+              </li>
+              <li class="pacifico-regular">
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+    
+</head>
+<body>
+    <article>
+        <div class="container">
+            <h1>Contraseñas Guardadas</h1>
+            <div id="passwords-container">Aquí se mostrarán las contraseñas.</div>
+
+            <button type="button" id="loadButton" class="btn btn-primary">Cargar contraseñas</button>
+        </div>
+
+        <!-- Incluye el archivo renderer.js -->
+        <script src="cargar.js"></script>
+    </article>
+</body>
+
+<footer id="1" class="page-footer">
+  <div class="footerPm1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre nosotros</h5>
+          <p class="grey-text text-lighten-4">
+            Passmat es una solución diseñada para simplificar la gestión de contraseñas en el mundo digital actual. Entendemos lo difícil que puede ser recordar múltiples contraseñas o la inseguridad de usar una sola para todas tus cuentas. Con Passmat, creás contraseñas seguras, las almacenás de manera confiable y las vinculás a una red social específica, asegurando tu tranquilidad y protegiendo tus datos.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a
+                class="grey-text text-lighten-3"
+                target="_blank"
+                href="https://www.instagram.com/lamonaoficial/?hl=es"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                class="grey-text text-lighten-3"
+                target="_blank"
+                href="https://www.youtube.com/channel/UCCEmjNPpJYhGDgaEqeeA4HA"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                class="grey-text text-lighten-3"
+                target="_blank"
+                href="https://x.com/kingsleague_am?lang=es"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                class="grey-text text-lighten-3"
+                target="_blank"
+                href="https://www.facebook.com/groups/1056570021051028/?locale=es_ES"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">© PassMat Text with Copyright</div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
